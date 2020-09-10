@@ -1,0 +1,1134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#000",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#0FF",
+          "borderWidth": 0,
+          "flex": 1,
+          "justifyContent": "center",
+          "zIndex": 0,
+        }
+      }
+    >
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "id": "0",
+              "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg",
+              "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            },
+            Object {
+              "id": "1",
+              "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
+              "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            },
+            Object {
+              "id": "2",
+              "poster": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
+              "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        onViewableItemsChanged={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        showsVerticalScrollIndicator={false}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfig={
+          Object {
+            "itemVisiblePercentThreshold": 50,
+          }
+        }
+        viewabilityConfigCallbackPairs={
+          Array [
+            Object {
+              "onViewableItemsChanged": [Function],
+              "viewabilityConfig": Object {
+                "itemVisiblePercentThreshold": 50,
+              },
+            },
+          ]
+        }
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "height": 1334,
+                  "width": 750,
+                }
+              }
+            >
+              <Video
+                paused={true}
+                repeat={true}
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "height": 320,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 507,
+                    "width": 80,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/author.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Author
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/like.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      1.8m
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/comments.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Comments
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/share.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Share
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "height": 1334,
+                  "width": 750,
+                }
+              }
+            >
+              <Video
+                paused={true}
+                repeat={true}
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "height": 320,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 507,
+                    "width": 80,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/author.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Author
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/like.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      1.8m
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/comments.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Comments
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/share.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Share
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={null}
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "height": 1334,
+                  "width": 750,
+                }
+              }
+            >
+              <Video
+                paused={true}
+                repeat={true}
+                resizeMode="contain"
+                source={
+                  Object {
+                    "uri": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "height": 320,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 507,
+                    "width": 80,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "flex": 1,
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/author.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Author
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/like.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      1.8m
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/comments.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Comments
+                    </Text>
+                  </View>
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "flex": 1,
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Image
+                      source={
+                        Object {
+                          "testUri": "../../../components/icons/share.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "flex": 1,
+                          "resizeMode": "contain",
+                        }
+                      }
+                    />
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "flex": 1,
+                          "fontSize": 12,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Share
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginTop": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "textAlign": "right",
+                },
+                Object {
+                  "color": "#AAA",
+                  "fontSize": 14,
+                  "margin": 6,
+                },
+              ]
+            }
+          >
+            My Subscriptions
+          </Text>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#FFF",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
+                  "margin": 6,
+                },
+              ]
+            }
+          >
+            Recommendations
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "height": 70,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../components/icons/home.png",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "resizeMode": "contain",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFF",
+              "flex": 1,
+              "fontSize": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          Home
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../components/icons/search.png",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "resizeMode": "contain",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFF",
+              "flex": 1,
+              "fontSize": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          Search
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../components/icons/plus.png",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "resizeMode": "contain",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFF",
+              "flex": 1,
+              "fontSize": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../components/icons/messages.png",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "resizeMode": "contain",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFF",
+              "flex": 1,
+              "fontSize": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          Messages
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../components/icons/profile.png",
+            }
+          }
+          style={
+            Object {
+              "flex": 1,
+              "resizeMode": "contain",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#FFF",
+              "flex": 1,
+              "fontSize": 12,
+              "textAlign": "center",
+            }
+          }
+        >
+          Profile
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
